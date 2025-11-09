@@ -1,5 +1,8 @@
 pipeline {
     agent any
+    tools {
+        maven 'Maven3'
+    }
 
     environment {
         SERVER_IP    = '65.1.94.122'
